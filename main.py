@@ -135,7 +135,7 @@ for j in range(len(set_nodes)):
         degree = degree + count_degree(matrix, j, i)
     if degree % 2 == 0:
         degree_list.append(degree)
-        degree_list.append("-- dergee for node #" + str(j + 1))
+        degree_list.append("-- degree for node #" + str(j + 1))
         even_cort.append(degree_list)
 
 print("\nInsertion sort:")
